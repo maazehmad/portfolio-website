@@ -1,0 +1,17 @@
+export const spacing = {
+  sectionPadding: "py-20",
+  sectionGap: "space-y-20",
+  containerWidth: "max-w-5xl",
+  containerPadding: "px-6",
+  cardPadding: "p-6",
+  buttonPadding: "px-5 py-3",
+  cardRadius: "rounded-2xl",
+  buttonRadius: "rounded-xl",
+  imageRadius: "rounded-2xl",
+  chipPadding: "px-3 py-1",
+  chipText: "text-sm",
+  chipRadius: "rounded-full",
+  gapSmall: "gap-2",
+  gapMedium: "gap-4",
+  gapLarge: "gap-6",
+} as const;
