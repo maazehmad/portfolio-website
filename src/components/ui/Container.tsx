@@ -10,9 +10,9 @@ export default function Container({ children, className }: ContainerProps) {
   return (
     <div
       className={cn(
-        "w-full flex flex-col items-center justify-center",
-        spacing.containerPadding,
+        "w-full mx-auto",
         spacing.containerWidth,
+        spacing.containerPadding,
         className,
       )}
     >

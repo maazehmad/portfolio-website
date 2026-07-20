@@ -1,14 +1,14 @@
 import Container from "../components/ui/Container";
 import SectionTitle from "../components/ui/SectionTitle";
-import { projects } from "../data/projects";
 import ProjectCard from "../components/cards/ProjectCard";
+import { projects } from "../data/projects";
 import { spacing } from "../constants/spacing";
 
 export default function Projects() {
   return (
     <main className="bg-slate-950 text-slate-50">
       <Container className={`${spacing.sectionGap} ${spacing.sectionPadding}`}>
-        <section className="pl-4 md:pl-6 lg:pl-8">
+        <section className="mx-auto w-full max-w-7xl">
           <div className="max-w-3xl">
             <SectionTitle>Projects</SectionTitle>
             <p className="mt-4 text-slate-300">
@@ -17,7 +17,7 @@ export default function Projects() {
             </p>
           </div>
 
-          <div className="mt-14 grid gap-6 sm:grid-cols-2">
+          <div className="mx-auto mt-14 grid max-w-[1300px] grid-cols-1 gap-8 sm:grid-cols-2">
             {projects.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
