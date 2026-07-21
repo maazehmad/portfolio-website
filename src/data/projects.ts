@@ -2,8 +2,8 @@ import type { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
-    id: "Launch Mind ",
-    title: "Launch Mind - Autonomous Multi-Agent Startup Launch System",
+    id: "Startup Launcher ",
+    title: "Agentic Startup Launch System",
     shortDescription:
       "AI-powered multi-agent platform that automates the end-to-end startup launch process from idea validation to deployment.",
     technologies: ["Python", "LangGraph", "Grok API", "Github API"],
