@@ -2,6 +2,41 @@ import type { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
+    id: "movie-recommendation",
+    title: "Movie Recommendation System",
+    shortDescription:
+      "Content-based recommendation engine that generates personalized movie suggestions using feature engineering and cosine similarity.",
+    technologies: ["Python", "scikit-learn", "Surprise"],
+    githubUrl: "https://github.com/maazehmad/movie-recommendation-system",
+    liveDemoUrl: "https://movie-recommendation-system-ul6f.onrender.com/",
+    image: "/images/projects/movie-recommendation.png",
+    featured: true,
+  },
+
+  {
+    id: "bi-chatbot",
+    title: "Business Intelligence Chatbot",
+    shortDescription:
+      "LLM-powered chatbot that delivers business insights, analysis, and decision support through natural language conversations.",
+    technologies: ["LangChain", "Python", "FastAPI"],
+    githubUrl: "https://github.com/maazehmad/business_chatbot",
+    liveDemoUrl: "https://business-llm-tool.onrender.com/",
+    image: "/images/projects/bi-chatbot.png",
+    featured: true,
+  },
+
+  {
+    id: "netflix-content-dashboard",
+    title: "Netflix Content Analysis Dashboard",
+    shortDescription:
+      "Interactive D3.js dashboard visualizing Netflix content trends, genres, ratings, and release patterns.",
+    technologies: ["Python", "Pandas", "Plotly", "Dash"],
+    githubUrl: "https://github.com/maazehmad/netflix-dashboard",
+    liveDemoUrl: "https://d3-dashboard.onrender.com/",
+    image: "/images/projects/netflix-dashboard.png",
+    featured: true,
+  },
+  {
     id: "Startup Launcher ",
     title: "Agentic Startup Launch System",
     shortDescription:
@@ -43,39 +78,6 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/your-username/aws-mlops-pipeline",
     liveDemoUrl: "",
     image: "/images/projects/aws-mlops-pipeline.webp",
-    featured: true,
-  },
-  {
-    id: "bi-chatbot",
-    title: "Business Intelligence Chatbot",
-    shortDescription:
-      "LLM-powered chatbot that delivers business insights, analysis, and decision support through natural language conversations.",
-    technologies: ["LangChain", "Python", "FastAPI"],
-    githubUrl: "https://github.com/maazehmad/business_chatbot",
-    liveDemoUrl: "https://business-llm-tool.onrender.com/",
-    image: "/images/projects/bi-chatbot.png",
-    featured: true,
-  },
-  {
-    id: "netflix-content-dashboard",
-    title: "Netflix Content Analysis Dashboard",
-    shortDescription:
-      "Interactive D3.js dashboard visualizing Netflix content trends, genres, ratings, and release patterns.",
-    technologies: ["Python", "Pandas", "Plotly", "Dash"],
-    githubUrl: "https://github.com/maazehmad/netflix-dashboard",
-    liveDemoUrl: "https://d3-dashboard.onrender.com/",
-    image: "/images/projects/netflix-dashboard.png",
-    featured: true,
-  },
-  {
-    id: "movie-recommendation",
-    title: "Movie Recommendation System",
-    shortDescription:
-      "Content-based recommendation engine that generates personalized movie suggestions using feature engineering and cosine similarity.",
-    technologies: ["Python", "scikit-learn", "Surprise"],
-    githubUrl: "https://github.com/maazehmad/movie-recommendation-system",
-    liveDemoUrl: "https://movie-recommendation-system-ul6f.onrender.com/",
-    image: "/images/projects/movie-recommendation.png",
     featured: true,
   },
 ];
