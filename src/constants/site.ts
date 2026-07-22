@@ -3,7 +3,7 @@ export const site = {
   professionalTitle: "Data Scientist | AI/ML | Computer Vision",
   heroSummary:
     "Data Science graduate building intelligent AI systems and scalable ML solutions across Computer Vision, MLOps, Agentic AI and Data Engineering.",
-  profileImage: "", // Use /images/profile/profile.jpg when ready
+  profileImage: "/images/profile/profile.jpeg",
   email: "maazad1833@gmail.com",
   githubUrl: "https://github.com/maazehmad",
   linkedInUrl: "https://www.linkedin.com/in/maazad1833/",
